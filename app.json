@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "NaariSurakshit",
+    "slug": "NaariSurakshit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo1.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffe6f0"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.bhavya.naarisurakshit",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo1.png",
+        "backgroundColor": "#ffe6f0"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ],
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "plugins": [
+      "expo-audio"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "57481ad3-453c-4b4c-8d43-4bea1cf08252"
+      }
+    }
+  }
+}
