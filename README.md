@@ -1,2 +1,2 @@
 # NaariSurakshit
-A women's safety and 
+A women's safety and Companion App
